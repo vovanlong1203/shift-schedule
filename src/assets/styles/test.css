@@ -1,0 +1,43 @@
+.schedule-table {
+    margin: 20px auto;
+    width: 90%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .schedule-table h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .schedule-table table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  .schedule-table th,
+  .schedule-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .schedule-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .shift {
+    padding: 5px;
+    border-radius: 4px;
+    color: white;
+    margin: 5px 0;
+  }
+  
+  .shift.morning {
+    background-color: #ff6f61; /* Màu buổi sáng */
+  }
+  
+  .shift.afternoon {
+    background-color: #4caf50; /* Màu buổi chiều */
+  }
+  
